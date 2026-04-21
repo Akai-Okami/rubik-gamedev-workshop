@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://drivnf3m8xiuv"]
+
+[ext_resource type="Script" uid="uid://coskv2wevgiyf" path="res://cube.gd" id="1_jbd7x"]
+
+[node name="Cube" type="Node3D"]
+script = ExtResource("1_jbd7x")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.7071068, -0.35355338, 0.61237246, 0, 0.8660254, 0.50000006, -0.7071068, -0.35355338, 0.61237246, 6.284893, 7.720683, 12.010924)
